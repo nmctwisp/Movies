@@ -9,10 +9,9 @@ class Movie {
 	string name;
 	string rating;
 public:
-	static int get_watched();
 	string get_name();
 	string get_rating();
-	string get_times_watched();
+	int get_times_watched();
 	// Constructor
 	Movie(string name_val="None", string rating_val="None", int watched_val=0);
 	// Destructor

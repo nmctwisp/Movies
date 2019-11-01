@@ -1,6 +1,6 @@
 #include "Movie.h"
 
-Movie::Movie(string name_val, string rating_val, string watched_val) 
+Movie::Movie(string name_val, string rating_val, int watched_val) 
 	:	name{name_val},
 		rating{rating_val},
 		watched{watched_val} {
@@ -17,6 +17,6 @@ string Movie::get_rating() {
 	return this -> rating;
 }
 
-string Movie::get_times_watched() {
+int Movie::get_times_watched() {
 	return this -> watched; 
 }
