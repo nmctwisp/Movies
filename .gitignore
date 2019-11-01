@@ -1,0 +1,13 @@
+# Specify filepatterns you want git to ignore.
+
+*.obj
+*.exe
+*.*workspace*
+*.txt
+*.mk
+Makefile
+*.cpp.o*
+*.session
+*.d
+*.tags
+*cpp.i
