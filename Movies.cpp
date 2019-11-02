@@ -43,3 +43,11 @@ void Movies::watch(string name, string rating){
 	else
 		collection.at(loc).watch();
 }
+void Movies::display_movies(){
+	for (Movie &movie: collection){
+		cout << "Movie: " << movie.get_name();
+		cout << " Rating: " << movie.get_rating();
+		cout << " Watched: " << movie.get_times_watched();
+		cout << endl;
+	}
+}
