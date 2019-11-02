@@ -20,3 +20,7 @@ string Movie::get_rating() {
 int Movie::get_times_watched() {
 	return this -> watched; 
 }
+
+void Movie::watch() {
+	++this->watched;
+} 
